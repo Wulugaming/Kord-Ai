@@ -10,7 +10,7 @@
   "stack": "container",
   "env": {
     "SESSION_ID": {
-      "description": "Session ID gotten from pair web: https://kord.live/session",
+      "description": "kord_ai-n4pTjuHZoRBQKPA8",
       "required": true
     },
     "OWNER_NUMBER": {
@@ -35,7 +35,7 @@
     },
     "STATUS_VIEW": {
       "description": "Automatically view status",
-      "required": false
+      "required": true
     },
     "SAVE_STATUS": {
       "description": "Automatically send status updates to owner",
@@ -87,7 +87,7 @@
     },
     "ANTIDELETE": {
       "description": "Sends deleted message to owner's DM",
-      "required": false
+      "required": true
     },
     "ANTIDELETE_INCHAT": {
       "description": "Sends deleted message to the same chat it was deleted",
